@@ -1,0 +1,115 @@
+/* $Id: navigation.css,v 1.5 2009/11/04 19:42:41 johnalbin Exp $ */
+
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+}
+
+.region-navigation {
+}
+
+/*
+ * Primary and Secondary menu links
+ */
+#main-menu {
+}
+
+#secondary-menu {
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+
+.block-menu_block {
+}
+
+/*
+ * "Menu community block" blocks.
+ */
+#menu-community {
+	width: 132px;
+	margin: 0px 7px;
+	}
+
+#menu-community ul {
+  margin:0px;
+  padding: 0px;
+}
+
+#menu-community li a {
+	height: 32px;
+  	voice-family: "\"}\"";
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}
+
+#menu-community li a:link, #menu-community li a:visited {
+	color: #4D4D4D;
+	display: block;
+	background:  url("../images/menu_community.gif") no-repeat;
+	padding: 8px 0 0 10px;
+	}
+
+#menu-community li a:hover, #menu-community li a.active {
+	color: #FF9834;
+	background:  url("../images/menu_community.gif") 0 -32px no-repeat;
+	padding: 8px 0 0 10px;
+        text-align: left;
+	}
+
+/* Campaign menu */
+
+
+#menu-campaign ul {
+  float:left;
+  width:100%;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+#menu-campaign a {
+  float:left;
+  /*width:6em;*/
+  text-decoration:none;
+  color:white;
+  /*background-color:purple;*/
+  padding:0.2em 0.6em;
+  border-right:1px solid white;
+}
+
+/*#menu-campaign a:hover {background-color:#ff3300;}*/
+#menu-campaign li {display:inline;}
+
+#menu-campaign li a:link, #menu-campaign li a:visited {
+	color: #4D4D4D;
+	/*display: block;*/
+	/*background:  url("../images/menu_community.gif") no-repeat;*/
+	/*padding: 8px 0 0 10px;*/
+}
+
+#menu-campaign li a:hover, #menu-campaign li a.active {
+	color: #FF9834;
+	/*background:  url("../images/menu_community.gif") 0 -32px no-repeat;*/  
+	/*padding: 8px 0 0 10px;*/
+  /*text-align: center;*/
+}
+

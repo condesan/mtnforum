@@ -1,0 +1,229 @@
+/* $Id: nodes.css,v 1.6 2009/11/02 15:37:29 johnalbin Exp $ */
+
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node /* Node wrapper */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished div.unpublished,
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-type-FOO class that describes the type of
+ * content that it is. If you create a new content type called
+ * "my-custom-type", it will receive a "node-type-my-custom-type" class.
+ */
+.node-type-page /* Page content node */ {
+}
+
+.node-type-story /* Story content node */ {
+}
+
+.node h2.title /* Node title */ {
+}
+
+.marker /* "New" or "Updated" marker for content that is new or updated for the current user */ {
+  color: #c00;
+}
+
+.node .picture /* The picture of the node author */ {
+}
+
+.node.node-unpublished .picture,
+.comment.comment-unpublished .picture {
+  position: relative; /* Otherwise floated pictures will appear below the "Unpublished" text. */
+}
+
+.node .meta /* Wrapper for submitted and terms data */ {
+}
+
+.node .submitted /* The "posted by" information */ {
+}
+
+.node .terms /* Node terms (taxonomy) */ {
+}
+
+.node .content /* Node's content wrapper */ {
+	margin-bottom:11px;
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.field-field-news-images .field-item {
+  display:inline;
+}
+
+
+
+.view-forums table, .view-Jobs table, .view-annoucements table,
+#og-open-chats table, #e-forums table,
+.view-og-members table,
+.view-e-campaign table
+{
+  width:100%;
+}
+
+.view-forums table td, .view-forums table th, 
+.view-Jobs table td, .view-Jobs table th,
+.view-annoucements table td, .view-annoucements table th,
+#og-open-chats table td, #og-open-chats table th,
+#e-forums table th, #e-forums table td,
+.view-og-members table th, .view-og-members table td,
+.view-e-campaign table th, .view-e-campaign table td
+{
+  padding: 6px;
+}
+
+.filedepottoolbar_searchbox {
+  /*display: none;*/
+}
+
+#block-views-forums-block_1,
+#block-views-communities-block_1
+{
+  text-align: center;
+}
+
+#block-views-forums-block_1 img,
+#block-views-communities-block_1 img
+{
+  border: 4pt solid #D0D0D0;
+}
+
+#block-views-forums-block_1 .views-field-title, 
+#block-views-communities-block_1 .views-field-title
+{
+  text-align: left;  
+  margin: 10px;  
+}
+
+#block-views-forums-block_1 .views-field-title a, 
+#block-views-communities-block_1 .views-field-title a,
+#block-views-communities-block_1 .views-field-title label,
+#block-views-forums-block_1 .views-field-title label
+{
+  font-weight: bold;
+  color: #4D7BAC;
+  font-size: 18px;
+}
+
+#block-views-forums-block_2 label {
+  display:block;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+#block-views-forums-block_2 .views-field-field-forum-moderator-nid,
+#block-views-forums-block_2 .views-field-field-forum-location-value,
+#block-views-forums-block_2 .views-field-field-forum-contact-name-value,
+#block-views-forums-block_2 .views-field-field-forum-date-value,
+#block-views-forums-block_2 .views-field-field-forum-files-fid,
+#block-views-forums-block_2 .views-field-field-forum-organizers-nid
+{
+  margin: 15px;
+  line-height: 20px;
+}
+
+#forum-topic-list {
+  padding: 10px 0px;
+}
+
+.forum-topic-title {
+  font-weight: bold;
+  font-size: 12pt;
+  margin:30px 0px 10px 0px;
+}
+
+.forum-topic-title a, #e-forums h3, .comment h3 a, .view-forums table caption a  {
+  color: #4D7BAC;
+}
+
+.view-forums table caption {
+  text-align: left;
+}
+
+.view-forums table caption a  {
+  margin: 20px 0px;
+  font-size:11pt;
+}
+
+#forum-topic-actions {
+  margin: 15px 0px;
+  text-align: right;
+}
+
+.comment_wrapper {
+  margin: 20px 0px;
+  background-color: #eee;
+  padding: 5px;
+}
+
+#forum-participants, .topic-participants, #forum-comments {
+  margin: 20px 0px;
+}
+
+#searchquery {
+  width:135px;
+}
+
+#searchbutton-button {
+  width: 87px;
+}
+
+#content-area .meta {
+  margin-bottom: 10px;
+}
+
+.comment_add a {
+  font-size: 10pt;
+}
+
+.forum-topic-comments {
+  margin: 10px 5px;
+}
+
+#forum-topic-comments-list #comments .box {
+  display:none;
+}
+
+.comments-content {
+  margin-top:10px;
+}
+
+.forum-topic-comment-title h2 a {
+  font-size:14pt;
+}

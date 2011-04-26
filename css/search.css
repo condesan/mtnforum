@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Search styling
+ */
+ 
+.search-results .title a {
+  font-weight: bold;
+}
