@@ -17,6 +17,13 @@ li a.active {
  * Navigation bar
  */
 #navigation {
+overflow:visible;
+height:40px;
+}
+
+#navigation li {
+float: left;
+padding: 0px;
 }
 
 .region-navigation {
@@ -45,13 +52,16 @@ li a.active {
  * "Menu community block" blocks.
  */
 #menu-community {
-	width: 132px;
 	margin: 0px 7px;
 	}
 
 #menu-community ul {
   margin:0px;
   padding: 0px;
+}
+
+#menu-community li {
+float: left;
 }
 
 #menu-community li a {
@@ -66,14 +76,16 @@ li a.active {
 	color: #4D4D4D;
 	display: block;
 	background:  url("../images/menu_community.gif") no-repeat;
-	padding: 8px 0 0 10px;
+	padding: 8px 0px 0 10px;
+  width: 120px;
 	}
 
 #menu-community li a:hover, #menu-community li a.active {
 	color: #FF9834;
 	background:  url("../images/menu_community.gif") 0 -32px no-repeat;
-	padding: 8px 0 0 10px;
-        text-align: left;
+	padding: 8px 0px 0 10px;
+  text-align: left;
+  width: 120px;
 	}
 
 /* Campaign menu */

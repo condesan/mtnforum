@@ -193,8 +193,6 @@
 }
 
 #block-mkh-announcements-block {
-  margin-left: 123px;
-  margin-top: -10px;
   width: 110px;
   text-align: left;
   padding: 0 18px;
@@ -215,7 +213,6 @@
 
 
 #block-mkh-menu-community-block {
-  width:130px;
 }
 
 .announ-text-link a {

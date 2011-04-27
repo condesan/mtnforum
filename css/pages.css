@@ -255,6 +255,17 @@ div.tabs /* See also the tabs.css file. */ {
 
 }
 
+.with-navigation #content, 
+.with-navigation .region-sidebar-first, 
+.with-navigation .region-sidebar-second {
+margin-top: 4.5em;
+}
+
+.node-type-community #content-area {
+width:860px
+
+}
+
 ul.links /* List of links */ {
   margin: 1em 0;
   padding: 0;
@@ -1059,4 +1070,7 @@ padding:0;
 width:619px;
 }
 
+#filelistingheader .filedepotheading {
+font-size: 10pt;
+}
 
